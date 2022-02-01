@@ -59,3 +59,4 @@ def test():
         line_bot_api.push_message('<to>', TextSendMessage(text='Hello World!'))
     except LineBotApiError as e:
         # error handle
+        
